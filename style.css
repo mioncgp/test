@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 205px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  border: 1px #e2e2e2 solid;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+.info {
+  height: 205px;
+}
+
+.info-container {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bolder !important;
+  text-align: left;
+}
+
+.description {
+  font-size: 15px;
+  text-align: left;
+}
+
+.subitem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 35px;
+}
